@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#MusicBot <https://t.me/AafuSam_MusciBot>
 
 import logging
 from pyrogram import Client
@@ -10,4 +10,4 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-SDbot = Client("SDSongBot", bot_token=BOT_TOKEN, api_hash=API_HASH, api_id=API_ID)
+SDbot = Client("AafuSam_MusicBot", bot_token=BOT_TOKEN, api_hash=API_HASH, api_id=API_ID)
