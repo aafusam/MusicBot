@@ -1,5 +1,5 @@
-# Plugin by @Mr_Dark_Prince
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+# Plugin by @AafuSam13
+#MusicBot <https://t.me/AafuSam_MusciBot>
 
 import os
 import requests
@@ -15,7 +15,7 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
-@app.on_message(filters.command('dsong'))
+@app.on_message(filters.command('sam'))
 def song(client, message):
 
     user_id = message.from_user.id 
@@ -26,7 +26,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('**🔎Searching...**')
+    m = message.reply('**🔎Searching...Please Wait!**')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -44,17 +44,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly."
+            "❌ Sorry, Nothing Founf.\n\nTry another keywork or maybe spell it properly."
         )
         print(str(e))
         return
-    m.edit("**Downloading the song by @SDbotsz**")
+    m.edit("**😍Song Is Being Downloaded (It May Take Some Time) @AafuSam_MovieBot**")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**Uploaded** by @SDbotsz.**'
+        rep = '**Downloaded** By @AafuSam_MusicBot.**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
