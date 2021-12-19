@@ -10,7 +10,7 @@ from SDSongBot import LOGGER
 pm_start_text = """
 👋 Hey There, [{}](tg://user?id={}), **〽️ This Is AafuSam MusicBot To Download YouTube Music. Made With ❤️ By @AafuSam13**
      
-Syntax : ```/sam <Song Name>```
+Syntax : ```/sam Song Name```
       
 Maintained By @AafuSam13 🔥
 """
