@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#MusicBot <https://t.me/AafuSam_MusciBot>
 
 import os
 API_ID = int(os.getenv("API_ID"))
