@@ -1,11 +1,11 @@
 {
     "name": "AafuSam MusicBot",
-    "description": "This Is AafuSam MusicBot To Download YouTube Music. Made By @AafuSam13",
+    "description": "This Is AafuSam MusicBot To Download YouTube Music. Made By AafuSam",
     "logo": "https://te.legra.ph/file/af3f919b45fb13269c2a8.jpg",
     "keywords": [
         "AafuSam MusicBot",
         "Song Downloader Bot",
-        "Telegram Bot",
+        "Telegram Bot"
     ],
     "website": "https://github.com/aafusam/MusicBot",
     "repository": "https://github.com/aafusam/MusicBot",
