@@ -5,7 +5,7 @@
 ### Telegram [AafuSam MusicBot](http://t.me/AafuSam_MusicBot)
 
 <p align="center">
-  <img src="https://te.legra.ph/file/7711f1e4226f0d03151a1.jpg">
+  <img src="https://te.legra.ph/file/af3f919b45fb13269c2a8.jpg">
 </p>
 
 
