@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#MusicBot <https://t.me/AafuSam_MusciBot>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from SDSongBot.plugins import *
@@ -8,12 +8,11 @@ from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
 pm_start_text = """
-👋 Hey [{}](tg://user?id={}), **I'm Song Downloader Bot**
-**Now send me the song name you want to download**
+👋 Hey There, [{}](tg://user?id={}), **〽️ This Is AafuSam MusicBot To Download YouTube Music. Made With ❤️ By @AafuSam13**
      
-Syntax : ```/dsong Faded```
+Syntax : ```/sam <Song Name>```
       
-Powerd By @SDBotsz 🔥
+Maintained By @AafuSam13 🔥
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +25,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🙋‍♀️", url="https://t.me/SDBOTs_Inifinity"
+                        text="❤️Join Our Movies Channel♀️", url="https://t.me/Apkapkapak_Movies"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Itz_Sadew"
+                        text="〽️Owner Contact", url="https://t.me/AafuSam13"
                     )
                 ]
             ]
@@ -41,11 +40,5 @@ async def start(client, message):
 
 app.start()
 LOGGER.info("""
-
-░██████╗██████╗░██████╗░░█████╗░████████╗░██████╗
-██╔════╝██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
-╚█████╗░██║░░██║██████╦╝██║░░██║░░░██║░░░╚█████╗░
-░╚═══██╗██║░░██║██╔══██╗██║░░██║░░░██║░░░░╚═══██╗
-██████╔╝██████╔╝██████╦╝╚█████╔╝░░░██║░░░██████╔╝
-╚═════╝░╚═════╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚═════╝░ SDSongBot is online.""")
+AafuSam_MovieBot Successfully Deployed""")
 idle()
