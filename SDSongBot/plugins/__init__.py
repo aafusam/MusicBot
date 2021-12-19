@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#MusicBot <https://t.me/AafuSam_MusicBot>
 
 from os.path import dirname, basename, isfile, join
 import glob
